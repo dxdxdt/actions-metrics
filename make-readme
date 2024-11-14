@@ -1,0 +1,17 @@
+#!/bin/env python3
+import datetime
+import sys
+
+table = open(sys.argv[1]).read()
+doc = sys.stdin.read()
+
+try:
+	now = datetime.datetime.now(datetime.UTC)
+except AttributeError:
+	now = datetime.datetime.utcnow()
+
+doc = (doc
+		.replace('%%UPDATED_TS%%', now.isoformat())
+		.replace('%%TABLE%%', table))
+
+sys.stdout.write(doc)

@@ -1,0 +1,40 @@
+name: Snapshot
+run-name: Snapshot
+on:
+  schedule:
+    - cron: "00 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  Do-snapshot:
+    name: Do data dump snapshot
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run make
+        run: |
+          make clean
+          make
+      - name: Do commit
+        run: |
+          git config --global user.name 'Snapshot Automation Bot'
+          git config --global user.email '_@users.noreply.github.com'
+          git add --all
+          git commit -sm 'Data snapshot commit'
+          git push
+      - name: Install SSH secrets
+        env:
+          SSH_KEY: ${{ secrets.MIRROR_SSH_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.MIRROR_SSH_KNOWN_HOSTS }}
+        run: |
+          pushd ~
+          mkdir -p .ssh .ssh_keys
+          echo "$SSH_KNOWN_HOSTS" >> .ssh/known_hosts
+          echo "$SSH_KEY" > .ssh_keys/sync-key
+          chmod 700 .ssh .ssh_keys
+          chmod 600 .ssh/known_hosts .ssh_keys/sync-key
+          popd
+      - name: Sync mirrors
+        run: |
+          ssh -T -i ~/.ssh_keys/sync-key cdci@embla.dev.snart.me

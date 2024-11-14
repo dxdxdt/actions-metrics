@@ -1,0 +1,17 @@
+#!/bin/env python
+import sys
+import common
+
+data_lavg = common.load_data_from_file(sys.argv[1])
+data_place = common.load_data_from_file(sys.argv[2])
+
+print('''| AWS Region | Avg Latency | Least |''')
+print('''| - | - | - |''')
+for k, v in data_lavg.items():
+	place = data_place.get(k, 0.0)
+	if place:
+		place = '%.0lf' % place
+	else:
+		place = ""
+
+	print('| %s | %.3lf | %s |' % (k, v, place))

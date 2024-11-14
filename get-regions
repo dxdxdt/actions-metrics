@@ -1,0 +1,18 @@
+#!/bin/bash
+filter_output () {
+	# drop any lines that doesn't contain a dash
+	# (to filter out "GLOBAL")
+	while read l
+	do
+		if [[ "$l" == *"-"* ]]; then
+			echo $l
+		fi
+	done
+}
+
+set -o pipefail
+curl -sSL 'https://ip-ranges.amazonaws.com/ip-ranges.json' |
+	jq -r '.prefixes[].region, .ipv6_prefixes[].region' |
+	sort |
+	uniq |
+	filter_output

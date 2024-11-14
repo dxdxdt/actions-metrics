@@ -1,0 +1,22 @@
+#!/bin/env python3
+import sys
+import common
+
+a = common.load_data_from_file(sys.argv[1])
+b = common.load_data_from_file(sys.argv[2])
+
+c = set(a.keys())
+c.update(b.keys())
+keys = list(c)
+keys.sort()
+for k in keys:
+	v_a = a.get(k)
+	v_b = b.get(k)
+	if v_a is None:
+		v = v_b
+	elif v_b is None:
+		v = v_a
+	else:
+		v = (v_a + v_b) / 2.0
+
+	print('%s\t%0.3lf' % (k, v))

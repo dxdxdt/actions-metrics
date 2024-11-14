@@ -1,0 +1,13 @@
+#!/bin/env python3
+import sys
+import common
+
+target = open(sys.argv[1]).read().strip()
+data = common.load_data(sys.stdin.readline)
+
+data[target] = data.get(target, 0.0) + 1.0
+
+keys = list(data.keys())
+keys.sort()
+for k in keys:
+	print('%-15s\t%.0lf' % (k, data[k]))

@@ -1,0 +1,21 @@
+#!/bin/bash
+export LC_ALL="C"
+set -o pipefail
+
+get_readtime () {
+	grep -Ei '^real' | grep -Eio '[0-9]+\.[0-9]+'
+}
+
+do_ping () {
+	time curl --connect-timeout 2 -sS "$1" -o /dev/null
+}
+
+for (( i = 0; i < 4; i += 1 ))
+do
+	ping=$(do_ping "$1" 2>&1)
+	if [ $? -ne 0 ]; then
+		echo "inf"
+		exit 1
+	fi
+	echo "$ping" | get_readtime
+done | uniq | sort | head -n1

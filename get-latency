@@ -1,0 +1,6 @@
+#!/bin/bash
+while read l
+do
+	ping=$(./ping-curl "https://ec2.$l.api.aws/")
+	printf "%-15s\t%s\n" "$l" "$ping"
+done
