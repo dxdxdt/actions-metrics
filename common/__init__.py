@@ -1,7 +1,6 @@
 import math
-from typing import Any, Callable
 
-def load_data_from_file (path: str, mask_noent = True) -> dict[str, float]:
+def load_data_from_file (path: str, mask_noent = True):
 	try:
 		with open(path) as f:
 			return load_data(f.readline)
@@ -9,10 +8,10 @@ def load_data_from_file (path: str, mask_noent = True) -> dict[str, float]:
 		if not mask_noent:
 			raise e
 
-	return dict[str, float]()
+	return dict()
 
-def load_data (read_f: Callable) -> dict[str, float]:
-	ret = dict[str, float]()
+def load_data (read_f):
+	ret = dict()
 
 	while True:
 		l = read_f()
