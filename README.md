@@ -30,30 +30,30 @@ their S3 buckets are to the Github Actions runners. Some AWS and Azure regions
 are under the same roof, but then again, no official data.
 
 ## DATA
-Updated: 2025-07-28T19:14:39.933943+00:00
+Updated: 2025-07-28T20:16:09.567008+00:00
 
 | AWS Region | Avg Latency | Least |
 | - | - | - |
-| af-south-1 | 1.024 |  |
-| ap-east-1 | 0.706 |  |
-| ap-northeast-1 | 0.508 |  |
-| ap-northeast-2 | 0.616 |  |
-| ap-south-1 | 0.903 |  |
-| ap-southeast-1 | 0.767 |  |
-| ap-southeast-2 | 0.661 |  |
-| ca-central-1 | 0.208 | 11 |
-| eu-central-1 | 0.547 |  |
-| eu-north-1 | 0.582 |  |
-| eu-south-1 | 0.573 |  |
-| eu-west-1 | 0.453 |  |
-| eu-west-2 | 0.489 |  |
-| eu-west-3 | 0.507 |  |
-| me-south-1 | 0.927 |  |
-| sa-east-1 | 0.635 |  |
-| us-east-1 | 0.185 | 2575 |
-| us-east-2 | 0.156 | 657 |
-| us-gov-east-1 | 0.152 | 829 |
-| us-gov-west-1 | 0.171 | 2 |
-| us-west-1 | 0.149 | 1748 |
-| us-west-2 | 0.173 |  |
+| af-south-1 | 1.071 |  |
+| ap-east-1 | 0.668 |  |
+| ap-northeast-1 | 0.473 |  |
+| ap-northeast-2 | 0.581 |  |
+| ap-south-1 | 0.907 |  |
+| ap-southeast-1 | 0.729 |  |
+| ap-southeast-2 | 0.611 |  |
+| ca-central-1 | 0.265 | 11 |
+| eu-central-1 | 0.600 |  |
+| eu-north-1 | 0.635 |  |
+| eu-south-1 | 0.627 |  |
+| eu-west-1 | 0.505 |  |
+| eu-west-2 | 0.541 |  |
+| eu-west-3 | 0.561 |  |
+| me-south-1 | 0.977 |  |
+| sa-east-1 | 0.688 |  |
+| us-east-1 | 0.232 | 2575 |
+| us-east-2 | 0.218 | 657 |
+| us-gov-east-1 | 0.202 | 829 |
+| us-gov-west-1 | 0.132 | 2 |
+| us-west-1 | 0.093 | 1749 |
+| us-west-2 | 0.134 |  |
 
