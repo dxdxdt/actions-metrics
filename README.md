@@ -30,38 +30,38 @@ their S3 buckets are to the Github Actions runners. Some AWS and Azure regions
 are under the same roof, but then again, no official data.
 
 ## DATA
-Updated: 2026-02-11T14:11:55.237514+00:00
+Updated: 2026-02-11T15:54:06.208668+00:00
 
 | AWS Region | Avg Latency | Least |
 | - | - | - |
-| af-south-1 | 0.905 |  |
-| ap-east-1 | 0.790 |  |
-| ap-northeast-1 | 0.605 |  |
-| ap-northeast-2 | 0.721 |  |
-| ap-south-1 | 0.845 |  |
-| ap-south-2 | 0.974 |  |
-| ap-southeast-1 | 0.857 |  |
-| ap-southeast-2 | 0.774 |  |
-| ap-southeast-3 | 0.920 |  |
-| ap-southeast-4 | 0.805 |  |
-| ca-central-1 | 0.102 | 16 |
-| ca-west-1 | 0.264 |  |
-| eu-central-1 | 0.414 |  |
-| eu-central-2 | 0.429 |  |
-| eu-north-1 | 0.454 |  |
-| eu-south-1 | 0.438 |  |
-| eu-south-2 | 0.448 |  |
-| eu-west-1 | 0.336 |  |
-| eu-west-2 | 0.365 |  |
-| eu-west-3 | 0.391 |  |
-| il-central-1 | 0.573 |  |
-| me-central-1 | 0.797 |  |
-| me-south-1 | 0.758 |  |
-| sa-east-1 | 0.516 |  |
-| us-east-1 | 0.067 | 4104 |
-| us-east-2 | 0.081 | 1331 |
-| us-gov-east-1 | 0.079 | 1452 |
-| us-gov-west-1 | 0.278 | 143 |
-| us-west-1 | 0.257 | 3039 |
-| us-west-2 | 0.277 | 125 |
+| af-south-1 | 0.884 |  |
+| ap-east-1 | 0.803 |  |
+| ap-northeast-1 | 0.614 |  |
+| ap-northeast-2 | 0.738 |  |
+| ap-south-1 | 0.857 |  |
+| ap-south-2 | 0.960 |  |
+| ap-southeast-1 | 0.894 |  |
+| ap-southeast-2 | 0.778 |  |
+| ap-southeast-3 | 0.933 |  |
+| ap-southeast-4 | 0.814 |  |
+| ca-central-1 | 0.106 | 16 |
+| ca-west-1 | 0.277 |  |
+| eu-central-1 | 0.390 |  |
+| eu-central-2 | 0.415 |  |
+| eu-north-1 | 0.444 |  |
+| eu-south-1 | 0.419 |  |
+| eu-south-2 | 0.423 |  |
+| eu-west-1 | 0.320 |  |
+| eu-west-2 | 0.349 |  |
+| eu-west-3 | 0.369 |  |
+| il-central-1 | 0.558 |  |
+| me-central-1 | 0.786 |  |
+| me-south-1 | 0.752 |  |
+| sa-east-1 | 0.497 |  |
+| us-east-1 | 0.059 | 4105 |
+| us-east-2 | 0.088 | 1331 |
+| us-gov-east-1 | 0.087 | 1452 |
+| us-gov-west-1 | 0.298 | 143 |
+| us-west-1 | 0.254 | 3039 |
+| us-west-2 | 0.299 | 125 |
 
