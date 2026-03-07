@@ -30,44 +30,44 @@ their S3 buckets are to the Github Actions runners. Some AWS and Azure regions
 are under the same roof, but then again, no official data.
 
 ## DATA
-Updated: 2026-03-07T16:19:36.466983+00:00
+Updated: 2026-03-07T17:15:45.351630+00:00
 
 | AWS Region | Avg Latency | Least |
 | - | - | - |
-| af-south-1 | 1.016 |  |
-| ap-east-1 | 0.679 |  |
-| ap-east-2 | 0.624 |  |
-| ap-northeast-1 | 0.502 |  |
-| ap-northeast-2 | 0.607 |  |
-| ap-northeast-3 | 0.526 |  |
-| ap-south-1 | 0.933 |  |
-| ap-south-2 | 0.941 |  |
-| ap-southeast-1 | 0.752 |  |
-| ap-southeast-2 | 0.655 |  |
-| ap-southeast-3 | 0.808 |  |
-| ap-southeast-4 | 0.698 |  |
-| ap-southeast-5 | 0.772 |  |
-| ap-southeast-6 | 0.694 |  |
-| ap-southeast-7 | 0.855 |  |
-| ca-central-1 | 0.214 | 16 |
-| ca-west-1 | 0.216 |  |
-| eu-central-1 | 0.519 |  |
-| eu-central-2 | 0.555 |  |
-| eu-north-1 | 0.577 |  |
-| eu-south-1 | 0.558 |  |
-| eu-south-2 | 0.556 |  |
-| eu-west-1 | 0.429 |  |
-| eu-west-2 | 0.484 |  |
-| eu-west-3 | 0.495 |  |
-| il-central-1 | 0.682 |  |
-| me-central-1 | 0.893 |  |
-| me-south-1 | 0.849 |  |
-| mx-central-1 | 0.222 |  |
-| sa-east-1 | 0.628 |  |
-| us-east-1 | 0.195 | 4235 |
-| us-east-2 | 0.157 | 1407 |
-| us-gov-east-1 | 0.156 | 1538 |
-| us-gov-west-1 | 0.156 | 174 |
-| us-west-1 | 0.150 | 3191 |
-| us-west-2 | 0.156 | 143 |
+| af-south-1 | 0.976 |  |
+| ap-east-1 | 0.716 |  |
+| ap-east-2 | 0.661 |  |
+| ap-northeast-1 | 0.540 |  |
+| ap-northeast-2 | 0.641 |  |
+| ap-northeast-3 | 0.563 |  |
+| ap-south-1 | 0.923 |  |
+| ap-south-2 | 0.946 |  |
+| ap-southeast-1 | 0.789 |  |
+| ap-southeast-2 | 0.699 |  |
+| ap-southeast-3 | 0.846 |  |
+| ap-southeast-4 | 0.742 |  |
+| ap-southeast-5 | 0.809 |  |
+| ap-southeast-6 | 0.776 |  |
+| ap-southeast-7 | 0.892 |  |
+| ca-central-1 | 0.154 | 16 |
+| ca-west-1 | 0.208 |  |
+| eu-central-1 | 0.482 |  |
+| eu-central-2 | 0.508 |  |
+| eu-north-1 | 0.531 |  |
+| eu-south-1 | 0.514 |  |
+| eu-south-2 | 0.520 |  |
+| eu-west-1 | 0.394 |  |
+| eu-west-2 | 0.442 |  |
+| eu-west-3 | 0.464 |  |
+| il-central-1 | 0.641 |  |
+| me-central-1 | 0.856 |  |
+| me-south-1 | 0.813 |  |
+| mx-central-1 | 0.219 |  |
+| sa-east-1 | 0.586 |  |
+| us-east-1 | 0.139 | 4235 |
+| us-east-2 | 0.110 | 1407 |
+| us-gov-east-1 | 0.107 | 1539 |
+| us-gov-west-1 | 0.191 | 174 |
+| us-west-1 | 0.202 | 3191 |
+| us-west-2 | 0.190 | 143 |
 
