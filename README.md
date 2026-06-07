@@ -30,7 +30,7 @@ their S3 buckets are to the Github Actions runners. Some AWS and Azure regions
 are under the same roof, but then again, no official data.
 
 ## DATA
-Updated: 2026-06-07T12:17:25.125580+00:00
+Updated: 2026-06-07T14:48:15.122834+00:00
 
 | AWS Region | Avg Latency | Least |
 | - | - | - |
@@ -66,8 +66,8 @@ Updated: 2026-06-07T12:17:25.125580+00:00
 | sa-east-1 | 0.655 |  |
 | us-east-1 | 0.218 | 4730 |
 | us-east-2 | 0.229 | 1627 |
-| us-gov-east-1 | 0.199 | 1709 |
-| us-gov-west-1 | 0.153 | 197 |
+| us-gov-east-1 | 0.224 | 1709 |
+| us-gov-west-1 | 0.122 | 198 |
 | us-west-1 | 0.092 | 3643 |
 | us-west-2 | 0.153 | 162 |
 
