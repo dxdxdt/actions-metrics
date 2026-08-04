@@ -30,44 +30,44 @@ their S3 buckets are to the Github Actions runners. Some AWS and Azure regions
 are under the same roof, but then again, no official data.
 
 ## DATA
-Updated: 2026-08-04T10:29:06.383160+00:00
+Updated: 2026-08-04T12:54:08.233681+00:00
 
 | AWS Region | Avg Latency | Least |
 | - | - | - |
-| af-south-1 | 0.988 |  |
-| ap-east-1 | 0.695 |  |
-| ap-east-2 | 0.635 |  |
-| ap-northeast-1 | 0.519 |  |
-| ap-northeast-2 | 0.625 |  |
-| ap-northeast-3 | 0.543 |  |
-| ap-south-1 | 0.886 |  |
+| af-south-1 | 1.012 |  |
+| ap-east-1 | 0.662 |  |
+| ap-east-2 | 0.602 |  |
+| ap-northeast-1 | 0.485 |  |
+| ap-northeast-2 | 0.591 |  |
+| ap-northeast-3 | 0.508 |  |
+| ap-south-1 | 0.927 |  |
 | ap-south-2 | 0.895 |  |
-| ap-southeast-1 | 0.772 |  |
-| ap-southeast-2 | 0.664 |  |
-| ap-southeast-3 | 0.825 |  |
-| ap-southeast-4 | 0.708 |  |
-| ap-southeast-5 | 0.789 |  |
-| ap-southeast-6 | 0.727 |  |
-| ap-southeast-7 | 0.877 |  |
-| ca-central-1 | 0.234 | 17 |
-| ca-west-1 | 0.219 |  |
-| eu-central-1 | 0.512 |  |
-| eu-central-2 | 0.543 |  |
-| eu-north-1 | 0.555 |  |
-| eu-south-1 | 0.539 |  |
-| eu-south-2 | 0.548 |  |
-| eu-west-1 | 0.456 |  |
-| eu-west-2 | 0.469 |  |
-| eu-west-3 | 0.496 |  |
-| il-central-1 | 0.677 |  |
-| me-central-1 | 0.922 |  |
+| ap-southeast-1 | 0.744 |  |
+| ap-southeast-2 | 0.631 |  |
+| ap-southeast-3 | 0.802 |  |
+| ap-southeast-4 | 0.679 |  |
+| ap-southeast-5 | 0.760 |  |
+| ap-southeast-6 | 0.688 |  |
+| ap-southeast-7 | 0.851 |  |
+| ca-central-1 | 0.272 | 17 |
+| ca-west-1 | 0.216 |  |
+| eu-central-1 | 0.527 |  |
+| eu-central-2 | 0.553 |  |
+| eu-north-1 | 0.572 |  |
+| eu-south-1 | 0.567 |  |
+| eu-south-2 | 0.564 |  |
+| eu-west-1 | 0.491 |  |
+| eu-west-2 | 0.488 |  |
+| eu-west-3 | 0.510 |  |
+| il-central-1 | 0.695 |  |
+| me-central-1 | 0.948 |  |
 | me-south-1 | 0.791 |  |
-| mx-central-1 | 0.240 |  |
-| sa-east-1 | 0.613 |  |
-| us-east-1 | 0.185 | 4938 |
-| us-east-2 | 0.194 | 1673 |
-| us-gov-east-1 | 0.195 | 1800 |
-| us-gov-west-1 | 0.189 | 210 |
-| us-west-1 | 0.130 | 3882 |
-| us-west-2 | 0.192 | 172 |
+| mx-central-1 | 0.213 |  |
+| sa-east-1 | 0.638 |  |
+| us-east-1 | 0.204 | 4938 |
+| us-east-2 | 0.218 | 1673 |
+| us-gov-east-1 | 0.242 | 1800 |
+| us-gov-west-1 | 0.169 | 210 |
+| us-west-1 | 0.106 | 3883 |
+| us-west-2 | 0.171 | 172 |
 
